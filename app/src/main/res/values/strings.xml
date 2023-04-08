@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BuyITFESC</string>
+    <string name="bienvenid_s_a_buyit">¡Bienvenid@s a BuyIt!</string>
+    <string name="nota_aun_es_una_versi_n_temprana_trabajando_en_mejoras">Nota: Aun es una versión temprana, trabajando en mejoras</string>
+    <string name="categorias">Categorias</string>
 </resources>
