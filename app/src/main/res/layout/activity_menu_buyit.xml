@@ -28,10 +28,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
         android:text="@string/nota_aun_es_una_versi_n_temprana_trabajando_en_mejoras"
         android:textColor="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -39,18 +41,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="188dp"
-        android:layout_marginBottom="503dp"
         android:text="@string/categorias"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#090909"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/lblTitulo"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/lblTitulo" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -58,15 +57,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="480dp"
+        android:layout_marginEnd="8dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        android:onClick="Categories"
+        app:layout_constraintEnd_toStartOf="@+id/lblCategoria"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblTitulo"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/categorics" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

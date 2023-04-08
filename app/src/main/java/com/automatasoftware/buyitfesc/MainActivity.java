@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Entrar (View view){
 
-        Intent Entrar = new Intent(this, MenuBuyit.class);
-        startActivity(Entrar);
+        Intent Slide = new Intent(getApplicationContext(), MenuBuyit.class);
+        startActivity(Slide);
     }
 }
